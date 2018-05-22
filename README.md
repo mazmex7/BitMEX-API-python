@@ -6,7 +6,7 @@ This script is based on the official code below, to fix some points for Python 2
 
 * [BitMEX API Connectors - Python-SwaggerPy](https://github.com/BitMEX/api-connectors/tree/master/official-http/python-swaggerpy)
 
-The code is pretty small, just 2 script files in 120 lines. That's because it loads official Swagger Spec's json.  
+The code is pretty small, just a script file in 110 lines. That's because it loads official Swagger Spec's json.  
 So, you can compare with the official code very easily :smile:
 
 ## Fixed Points
@@ -35,12 +35,11 @@ $ pip install bravado
 ```
 
 ## Installation
-Please download the code and embed 2 files below to your project.  
-You can use them just like `sample.py`, it's very easy. :smile:
+Please download the code and embed a file below to your project.  
+You can use it just like `sample.py`, it's very easy. :smile:
 
 ```
 bitmex.py
-BitMEXAPIKeyAuthenticator.py
 ```
 
 ## Info
@@ -63,7 +62,7 @@ BitMEX の REST API に接続するとても軽量なスクリプトです。
 
 * [BitMEX API Connectors - Python-SwaggerPy](https://github.com/BitMEX/api-connectors/tree/master/official-http/python-swaggerpy)
 
-コード構成はとても小さく、ファイル2つでわずか120行以下のコードになっています。  
+コード構成はとても小さく、ファイル１つでわずか110行以下のコードになっています。  
 （BitMEX が Swagger を採用しており、APIの仕様を読み込む形式をとっているためです。）  
 公式のコードとの差分も目視ですぐにチェックできます。
 
@@ -97,12 +96,11 @@ $ pip install bravado
 ```
 
 ## 導入
-単にこのリポジトリのコードをダウンロードし、以下の2つのファイルを配置するだけです。  
+このリポジトリのコードをダウンロードし、以下のファイル１つを配置するだけです。  
 同梱の `sample.py` のように簡単に導入できます。使い方は公式のものと同じです。 :smile:
 
 ```
 bitmex.py
-BitMEXAPIKeyAuthenticator.py
 ```
 
 ## その他
